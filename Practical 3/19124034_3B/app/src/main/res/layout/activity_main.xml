@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#23272A"
+    android:orientation="vertical"
+    tools:layout_editor_absoluteX="77dp"
+    tools:layout_editor_absoluteY="238dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:layout_marginTop="20sp"
+        android:text="Find the greatest number"
+        android:textAlignment="center"
+        android:textColor="#7289DA"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:text="Find the greatest number" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100sp"
+        android:orientation="horizontal"
+        android:padding="10sp">
+
+        <EditText
+            android:id="@+id/input1"
+            android:layout_width="3sp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10sp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Input 1"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#99AAB5" />
+
+        <EditText
+            android:id="@+id/input2"
+            android:layout_width="3sp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10sp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Input 2"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#99AAB5" />
+
+        <EditText
+            android:id="@+id/input3"
+            android:layout_width="3sp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10sp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Input 3"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#99AAB5" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/answer"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="50dp"
+        android:hint="Answer here"
+        android:text="Answer Here!"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#99aab5"
+        android:textSize="20sp" />
+    <Button
+        android:id="@+id/great"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/round"
+        android:text="Greatest :D" />
+
+
+</LinearLayout>
+
