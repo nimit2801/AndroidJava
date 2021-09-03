@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:background="@drawable/random"
+    >
+
+
+    <TableLayout
+        android:layout_width="600dp"
+        android:layout_height="225dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:background="#FFD600"
+                android:text="TIME"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:background="#00B8D4"
+                android:text="MONDAY"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:background="#00B8D4"
+                android:text="TUESDAY"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:background="#00B8D4"
+                android:text="WEDNESDAY"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:background="#00B8D4"
+                android:text="THURSDAY"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:background="#00B8D4"
+                android:text="FRIDAY"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:background="#B0C573"
+                android:text="9:00 - 10:00"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:background="@drawable/back"
+                android:text="MD"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:background="@drawable/back"
+                android:text="AWT"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:background="@drawable/back"
+                android:text="MD"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:background="@drawable/back"
+                android:text="MP"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:background="@drawable/back"
+                android:text="MD"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:background="#B0C573"
+                android:text="10:00 - 11:00"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:background="@drawable/back"
+                android:text="CN"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:background="@drawable/back"
+                android:text="DAA"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:background="@drawable/back"
+                android:text="OS"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:background="@drawable/back"
+                android:text="COA"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:background="#F377A8"
+                android:text="SP LAB"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:background="#B0C573"
+                android:text="11:00 - 12:00"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:background="@drawable/back"
+                android:text="MP"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:background="@drawable/back"
+                android:text="CN"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:background="#F377A8"
+                android:text="AWT LAB"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:background="@drawable/back"
+                android:text="CN"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:background="#F377A8"
+                android:text=""
+                android:textAlignment="center"
+                android:textSize="16sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:background="#B0C573"
+                android:text="12:00 - 01:00"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:background="@drawable/back"
+                android:text="OS"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:background="@drawable/back"
+                android:text="COA"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:background="#F377A8"
+                android:text="MD LAB"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:background="@drawable/back"
+                android:text="DAA"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:background="@drawable/back"
+                android:text="OS-T"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:background="#B0C573"
+                android:text="01:00 - 02:00"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:background="#313237"
+                android:text=""
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:background="#313237"
+                android:text="LU"
+                android:textAlignment="viewEnd"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:background="#313237"
+                android:text="NCH -BREAK"
+                android:textAlignment="viewStart"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:background="#313237"
+                android:text=""
+                android:textAlignment="viewStart"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:background="#313237"
+                android:text=""
+                android:textAlignment="center"
+                android:textSize="16sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:background="#B0C573"
+                android:text="02:00 - 03:00"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:background="#F377A8"
+                android:text="DAA LAB"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:background="#F377A8"
+                android:text="CN LAB B1"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:background="#F377A8"
+                android:text="CN LAB B2"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:background="#F377A8"
+                android:text="AWT LAB"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:background="#F377A8"
+                android:text="MD LAB"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:background="#B0C573"
+                android:text="03:00 - 04:00"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:background="#F377A8"
+                android:text="CN LAB"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:background="#F377A8"
+                android:text="DAA LAB B2"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:background="#F377A8"
+                android:text="DAA LAB B3"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:background="#F377A8"
+                android:text="MONDAY"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:background="#F377A8"
+                android:text="MONDAY"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:background="#B0C573"
+                android:text="04:00 - 05:00"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:background="@drawable/back"
+                android:text="DAA"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:background="@drawable/back"
+                android:text="AWT"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:background="@drawable/back"
+                android:text="COA"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:background="@drawable/back"
+                android:text="AWT"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:background="@drawable/back"
+                android:text="MENTOR"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+        </TableRow>
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

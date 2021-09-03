@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A4CF73"
+    android:orientation="vertical"
+    tools:layout_editor_absoluteX="77dp"
+    tools:layout_editor_absoluteY="238dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="50dp"
+        android:text="Registration Form"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:text="First Name: "
+            android:textAlignment="viewEnd"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/firstNameEdit"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:ems="10"
+            android:hint="John"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/lastName"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:text="Last Name: "
+            android:textAlignment="viewEnd"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/lastNameEdit"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:ems="10"
+            android:hint="Doe"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/gender"
+            android:layout_width="170dp"
+            android:layout_height="150dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:text="Gender: "
+            android:textAlignment="viewEnd"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/genderRadio"
+            android:layout_width="210dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="20dp">
+
+            <RadioButton
+                android:id="@+id/maleRadio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MALE" />
+
+            <RadioButton
+                android:id="@+id/femaleRadio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FEMALE" />
+
+            <RadioButton
+                android:id="@+id/nonBinary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Non - Binary" />
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/emailText"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:text="Email: "
+            android:textAlignment="viewEnd"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/emailEdit"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:ems="10"
+            android:hint="abc@xyc.com"
+            android:inputType="textEmailAddress" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/contactText"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:text="Contact No: "
+            android:textAlignment="viewEnd"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/contactEdit"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:ems="10"
+            android:hint="+911234567890"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:backgroundTint="#1976D2"
+        android:text="Register" />
+
+
+</LinearLayout>
+
