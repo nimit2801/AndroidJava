@@ -32,7 +32,7 @@
             <TextView
                 android:layout_width="100dp"
                 android:layout_height="25dp"
-                android:background="#00B8D4"
+                android:background="#00B8D5"
                 android:text="MONDAY"
                 android:textAlignment="center"
                 android:textSize="16sp"
