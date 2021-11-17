@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:iconTint="#FFFFFF"
+        android:title="Apple"
+        android:id="@+id/item1"/>
+    <item android:title="Cone"
+        android:id="@+id/item2"/>
+    <item android:title="Unicorn"
+        android:id="@+id/item3"/>
+</menu>
